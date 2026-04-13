@@ -8,8 +8,8 @@ This project uses **Convolutional Neural Networks (CNN)** to detect diseases in 
 - **Phoma**
 
 ## Dataset
-- Training images: 1,146
-- Test images: 500+
+- Training images: 10,800 images
+- Test images: 1,200 images
 - Image size: 224×224 pixels
 
 ##  Model Architecture
@@ -21,12 +21,19 @@ This project uses **Convolutional Neural Networks (CNN)** to detect diseases in 
 ##  Project Structure
 
 ├── data/
+
 │ ├── train/
+
 │ └── test/
+
 ├── saved_model/
+
 │ └── coffee_leaf_disease_model.keras
+
 ├── notebooks/
+
 ├── requirements.txt
+
 └── README.md
 
 
@@ -58,4 +65,4 @@ Author
 Kassahun Tigabu
 
 Links
-GitHub Repository
+https://github.com/kassahun-tigabu/Coffee-Disease-Detection-Using-CNN
